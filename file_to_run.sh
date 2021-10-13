@@ -54,10 +54,4 @@ blastn -query List_ASVs_18S.fasta -db References/18S/BDD_18SFonseca_allMetazoa -
 
 Rscript Downstream_analyses.R
 
-##################
-###  GRAPHICS  ###
-##################
-
-Rscript Graphics.R
-
 # END OF SCRIPT
