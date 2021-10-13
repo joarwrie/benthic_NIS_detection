@@ -28,3 +28,4 @@ for i in $(ls *cut.fastq);do
 		newname=$(echo $i | sed 's/_F5_R5_/_PCR5_/g')
 		mv $i inputDADA2/$newname
 	fi
+done
